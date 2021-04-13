@@ -418,6 +418,15 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
   .two-cards-row{
     margin: auto;
   }
+  .two-card-header {
+    font-family: 'Glegoo', serif;
+    color: #001a78;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 5% 0;
+    padding-right: 5%;
+  }
   .two-card-image {
     align-self: center;
     width: 90%;
