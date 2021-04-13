@@ -351,12 +351,25 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 
 /* Responsive Code */
 @media screen and (max-width:650px) {
+
   .brand {
+    font-size: 2rem;
     margin: 1% 4%;
   }
   .navbutton {
-    margin-left: 70px !important;
+    margin-left: 30px !important;
     height: 3.5rem;
+  }
+  .parent {
+    width: 100%;
+    min-height: 800px;
+  }
+  .top-header h1 {
+      font-family: 'Glegoo', serif;
+      line-height: 4rem;
+      font-weight: 900;
+      font-size: 3rem;
+      color: #001a78;
   }
   .intro-image {
     width: 90%;
@@ -389,5 +402,32 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
   .slide-show-header {
     font-size: 2.1rem;
     text-align: center;
+  }
+  .col-image {
+    padding: 6%;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-image {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    transition: 500ms cubic-bezier(0.59, 0.57, 0.46, 3.21);
+  }
+  .scroll-col {
+    padding: 6%;
+  }
+  .scroll-image {
+    padding: 2%;
+    /* border-radius: 500px; */
+    border: 2px solid #264db7;
+    margin: auto;
+    box-shadow: 2px 2px 2px #ccc
+  }
+  .top-left-navbar{
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 10px 1px;
+    background-color: #264db7;
   }
 }
