@@ -400,7 +400,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
   }
   .intro-image {
     width: 90%;
-    margin: 5px 40px 100px;
+    margin: 10px;
     border-radius: 10px;
     border: 3px solid #001a78;
     box-shadow: 1px 2px 3px #264db7;
@@ -424,7 +424,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
   .carousel-image {
     width: 90%;
     height: 250px;
-    margin: 5% 15% 1% 20%;
+    margin: 5% 8% 1% 20%;
     background-color: #e3eaff;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   }
