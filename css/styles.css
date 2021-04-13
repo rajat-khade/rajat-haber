@@ -375,6 +375,12 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     margin-left: 30px !important;
     height: 3.5rem;
   }
+  .top-left-navbar{
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 10px 1px;
+    background-color: #264db7;
+  }
   .parent {
     width: 100%;
     min-height: 800px;
